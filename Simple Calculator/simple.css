@@ -1,0 +1,28 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.background {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+} 
+
+.buttons {
+    color: rgb(0, 0, 0);
+}
+.buttons a:hover{
+    background: rgb(207, 188, 16);
+}
+input {
+    width: 50%;
+}
