@@ -1,0 +1,74 @@
+.header {
+  background-color: rgb(84, 172, 153);
+  padding: 20px 30px;
+  color: white;
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 5px;
+  float: left;
+  font-size: 16px;
+}
+
+.addBtn {
+  padding: 5px;
+  width: 25%;
+  background: #bdbaba;
+  color: black;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: rgb(200, 255, 175);
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 15px 5px 15px;
+  background: rgb(197, 255, 236);
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul li:hover {
+  background: rgb(169, 231, 208);
+}
+  
+ul li.checked {
+  background: rgb(128, 182, 179);
+  color: black;
+  text-decoration: line-through;
+}
+  
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px 20px 15px 20px;
+  }
+  
+.close:hover {
+  background-color: #f44336;
+  color:black;
+}
+  
